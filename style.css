@@ -70,8 +70,12 @@ header{
 }
 .banner-img2{
    max-height: 300px;
-   max-width: 500px;
-   
+   width: 20%;
+}
+.banner-img3{
+   max-height: 300px;
+   width: calc(60% - 20px);
+   margin: auto 10px;
    
 }
 
