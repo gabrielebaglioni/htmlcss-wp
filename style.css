@@ -68,15 +68,18 @@ header{
    padding-top:5px;
    font-size: 30px;
 }
+.banner-img1{
+   max-height: 300px;
+  
+}
 .banner-img2{
    max-height: 300px;
-   width: 20%;
+   
 }
 .banner-img3{
    max-height: 300px;
-   width: calc(60% - 20px);
-   margin: auto 10px;
-   
+  
+
 }
 
 .cols{
