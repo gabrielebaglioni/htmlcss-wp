@@ -67,3 +67,74 @@ nav a{
    left:15%;
    transform: translate(-15%,-80%);
 }
+ù
+main{
+   width: 100%;
+   height: auto;
+   
+}
+h4,h2{
+   color:black; 
+ }
+ 
+.sec-2{
+   margin: auto;
+}
+
+.head-sec-2{
+   min-height: 60px;
+}
+
+
+
+.col{
+   min-height: 300px;
+   margin: 20px auto 40px auto;
+
+}
+
+.col-left, .col-right{
+   float:left;
+   width:20%;
+}
+.col-left{
+   margin-right: 10px;
+   
+}
+
+
+.img-col-left{
+   background: url("img/img-1.jpg");
+
+}
+
+.img-col-center{
+   background: url("img/banner-2.jpg");
+
+}
+
+.img-col-right{
+   background: url("img/img-3.jpg");
+}
+
+.img-col-left, .img-col-right, .img-col-center{
+   background-position:  center ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 230px;
+
+}
+
+.title-article{
+   margin:15px auto;
+   font-weight: 400;
+}
+
+.col-center{
+   float:left;
+   width: calc(60% - 20px);
+}
+
+.col-right{
+   margin-left:10px;
+}
