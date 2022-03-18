@@ -67,7 +67,7 @@ nav a{
    left:15%;
    transform: translate(-15%,-80%);
 }
-ù
+
 main{
    width: 100%;
    height: auto;
@@ -137,4 +137,17 @@ h4,h2{
 
 .col-right{
    margin-left:10px;
+}
+
+footer{
+   height: 30px;
+   width: 100%;
+   margin-top:5px;
+   text-align: center;
+   color:black;
+}
+
+footer span:last-child{
+   color:red;
+   font-size: 20px;
 }
