@@ -8,3 +8,62 @@ body{
    font-family: 'Montserrat', sans-serif;
    color:#8A8A8A;
 }
+.container{
+   max-width: 1280px;
+   margin:auto;
+}
+
+header{
+   width: 100%;
+   min-height: 150px;
+   margin-bottom: 20px;
+}
+img.logo{
+   height: 75px;
+   width: 200px;
+   margin-bottom: 30px;
+   margin-top: auto;
+   border-right: 1px solid #8A8A8A;
+   padding-right: 20px;
+
+}
+
+nav{
+   margin-top:10px;
+}
+
+nav ul li{
+   list-style: none;
+   display: inline;
+   margin-right:10px;
+}
+nav a{
+   color:rgb(168, 168, 168);
+   text-decoration: none;
+}
+.black-cover{
+   height: 100%;
+   width: 100%;
+   background: rgba(0,0,0,20%);
+}
+.section1{
+   position: relative;
+   background: url("img/banner.jpg");
+   background-position: center center;
+   height: 450px;
+   margin-bottom: 30px;
+}
+
+.border-radius{
+   border-radius: 10px;
+}
+
+
+.banner{
+   padding-right: calc(100% - 880px);
+   color:white;
+   position: absolute;
+   top:80%;
+   left:15%;
+   transform: translate(-15%,-80%);
+}
